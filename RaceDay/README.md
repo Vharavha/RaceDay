@@ -101,4 +101,7 @@ RaceDay is being developed in three parts.
 - API integration
 - Azure Blob Storage
 - Docker deployment
-- Final system demonstration
+- Final system demonstration   
+
+YouTube video:
+https://youtu.be/bfQ3UiSI30I 
