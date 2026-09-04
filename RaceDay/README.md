@@ -76,4 +76,29 @@ The following cannot be truthfully completed inside a generated ZIP:
 - Proof that the SQL script has been executed successfully in the student's assigned SQL Server environment
 
 These must be completed by the student before submission.
- made by Azwinndini muravha
+ made by Azwinndini muravha 
+
+ ## System Scope
+
+RaceDay is being developed in three parts.
+
+### Part 1 - Planning and Database Design
+- Entity Relationship Diagram (ERD)
+- REST API endpoint plan
+- SQL Server database schema
+- Sample database data
+- GitHub repository and CI/CD validation
+
+### Part 2 - RESTful API
+- C# REST API
+- SQL Server database integration
+- Authentication and authorisation
+- Unit testing
+- GitHub Actions CI/CD
+
+### Part 3 - MVC Application
+- MVC web application
+- API integration
+- Azure Blob Storage
+- Docker deployment
+- Final system demonstration

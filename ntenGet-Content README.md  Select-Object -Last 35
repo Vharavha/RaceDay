@@ -1,0 +1,38 @@
+warning: in the working copy of 'RaceDay/README.md', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/RaceDay/README.md b/RaceDay/README.md[m
+[1mindex 061eddb..98fdae9 100644[m
+[1m--- a/RaceDay/README.md[m
+[1m+++ b/RaceDay/README.md[m
+[36m@@ -76,4 +76,29 @@[m [mThe following cannot be truthfully completed inside a generated ZIP:[m
+ - Proof that the SQL script has been executed successfully in the student's assigned SQL Server environment[m
+ [m
+ These must be completed by the student before submission.[m
+[31m- made by Azwinndini muravha[m
+\ No newline at end of file[m
+[32m+[m[32m made by Azwinndini muravha[m[41m [m
+[32m+[m
+[32m+[m[32m ## System Scope[m
+[32m+[m
+[32m+[m[32mRaceDay is being developed in three parts.[m
+[32m+[m
+[32m+[m[32m### Part 1 - Planning and Database Design[m
+[32m+[m[32m- Entity Relationship Diagram (ERD)[m
+[32m+[m[32m- REST API endpoint plan[m
+[32m+[m[32m- SQL Server database schema[m
+[32m+[m[32m- Sample database data[m
+[32m+[m[32m- GitHub repository and CI/CD validation[m
+[32m+[m
+[32m+[m[32m### Part 2 - RESTful API[m
+[32m+[m[32m- C# REST API[m
+[32m+[m[32m- SQL Server database integration[m
+[32m+[m[32m- Authentication and authorisation[m
+[32m+[m[32m- Unit testing[m
+[32m+[m[32m- GitHub Actions CI/CD[m
+[32m+[m
+[32m+[m[32m### Part 3 - MVC Application[m
+[32m+[m[32m- MVC web application[m
+[32m+[m[32m- API integration[m
+[32m+[m[32m- Azure Blob Storage[m
+[32m+[m[32m- Docker deployment[m
+[32m+[m[32m- Final system demonstration[m
+\ No newline at end of file[m
