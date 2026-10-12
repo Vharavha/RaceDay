@@ -132,3 +132,4 @@ Paste your unlisted YouTube URL here.
 ## AI Disclosure
 
 AI tools were used as a supporting tool during planning, scaffolding, explanation and review of both parts of this project. The student has reviewed, tested and adapted the work and discloses this assistance in accordance with the institution's academic-integrity and AI-disclosure requirements.
+   ![Successful CI run](docs/ci-success.png)
