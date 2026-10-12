@@ -1,0 +1,20 @@
+name: RaceDay Part 2 API CI
+on:
+  push:
+    branches: [ main, part2 ]
+    paths: [ 'Part2/**', '.github/workflows/part2-api-ci.yml', 'README.md' ]
+  pull_request:
+    branches: [ main, part2 ]
+    paths: [ 'Part2/**', '.github/workflows/part2-api-ci.yml', 'README.md' ]
+  workflow_dispatch:
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - run: dotnet restore Part2/RaceDay.Tests/RaceDay.Tests.csproj
+      - run: dotnet build Part2/RaceDay.Api/RaceDay.Api.csproj --no-restore
+      - run: dotnet test Part2/RaceDay.Tests/RaceDay.Tests.csproj --no-restore --verbosity normal
